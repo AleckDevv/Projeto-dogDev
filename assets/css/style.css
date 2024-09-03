@@ -12,3 +12,54 @@
    --background-anuncios: #EBF4FF;
    --background-primario: #fff;
 }
+
+.banner a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: var(--color-header);
+   padding: 1.1rem;
+   font-size: 1.5rem;
+   color: #000;
+   text-decoration: none;
+}
+
+.cabecalho {
+   display: flex;
+   justify-content: space-around;
+   padding: 3rem 0;
+   box-shadow: 0px 2px 1px #dfdfdf;
+}
+
+.logo img {
+   width: 12rem;
+}
+
+.menu ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   gap: 3rem
+}
+
+.menu a {
+   font-size: 3rem;
+   text-decoration: none;
+   color: var(--color-fonts);
+}
+
+.menu .bold {
+   font-weight: bold;
+}
+
+.logo .menu {
+   flex: 1;
+}
+
+@media (max-width: 950px) {
+   .cabecalho {
+      min-width: 800px;
+   }
+}
